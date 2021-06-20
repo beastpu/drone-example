@@ -1,0 +1,11 @@
+
+stages:
+  - test
+  - build
+  - deploy
+
+test:
+  stage: test
+  script:
+    - echo "test subpoject"
+  
